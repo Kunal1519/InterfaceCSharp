@@ -6,6 +6,9 @@
         {
             Program program = new Program();
             program.Calculate(5, 29);
+
+            Multiply multiply = new Multiply();
+            multiply.MultitpleCal(25, 4);
         }
 
         public void Calculate(int a, int b)
